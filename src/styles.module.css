@@ -1,7 +1,7 @@
 
 .profilePicture {
     border-radius: 50%;
-    height: 150px;
+    height: 130px;
 }
 
 .title {
@@ -9,3 +9,20 @@
     padding-bottom: 1rem;
     font-size: 1.1rem;
 }
+
+.linkButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+
+  .linkButton:hover {
+    text-decoration: underline;
+  }
+
+  .anchorColor {
+    color: -internal-light-dark(black, white);
+  }

@@ -2,6 +2,7 @@ import React, {useState, useEffect, useRef} from 'react';
 import './App.css';
 import Header from '../src/components/Header';
 import WAVES from 'vanta/dist/vanta.waves.min';
+import SubHeader from './components/SubHeader';
 
 const App = ()=> {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -31,6 +32,7 @@ const App = ()=> {
   return (
      <div ref={myRef}>
       <Header/>
+      <SubHeader/>
     </div>
   )
 }
