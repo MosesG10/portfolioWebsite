@@ -12,7 +12,7 @@ const SubHeader = () => {
         <div className="container">
            <div className="row justify-content-center">
             <span>
-                <button className={styles.linkButton} onClick={toggleEmailModal}>Email</button>
+                <button className={`${styles.linkButton} ${styles.anchorColor}`} onClick={toggleEmailModal}>Email</button>
             </span>
             •
             <span>

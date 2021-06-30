@@ -30,7 +30,7 @@ const App = ()=> {
     }, [vantaEffect]);
 
   return (
-     <div ref={myRef}>
+    <div ref={myRef}>
       <Header/>
       <SubHeader/>
     </div>

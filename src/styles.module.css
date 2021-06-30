@@ -19,10 +19,15 @@
     padding: 0;
   }
 
-  .linkButton:hover {
+  .anchorColor {
+    color: black;
+  }
+  
+  .anchorColor:hover {
     text-decoration: underline;
+    color: black;
   }
 
-  .anchorColor {
-    color: -internal-light-dark(black, white);
+  .pad {
+    padding: 5px;
   }
