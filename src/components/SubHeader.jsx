@@ -2,9 +2,6 @@ import React from 'react';
 import styles from '../styles.module.css';
 
 const SubHeader = () => {
-    // Email with >> modal 
-    // Link to Github 
-    // Link to LinkedIn
     const toggleEmailModal = () => {
         console.log('toggleModal Called');
     }

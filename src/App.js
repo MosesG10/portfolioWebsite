@@ -4,6 +4,9 @@ import Header from '../src/components/Header';
 import Card from '../src/components/Card';
 import WAVES from 'vanta/dist/vanta.waves.min';
 import SubHeader from './components/SubHeader';
+import schoolImage from '../src/static/TAM-Logo.svg';
+import amexImage from '../src/static/American_Express-Logo.wine.svg';
+import styles from './styles.module.css';
 
 const App = ()=> {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -31,10 +34,19 @@ const App = ()=> {
     }, [vantaEffect]);
 
   return (
-    <div ref={myRef}>
+    <div ref={myRef} className={styles.pageWrapper}>
       <Header/>
       <SubHeader/>
-      <Card></Card>
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-md-6 justify-content-center">
+            <Card image={schoolImage} subHeader="Industrial Engineering"/>
+          </div>
+          <div className="col-md-6 justify-content-center">
+            <Card image={amexImage} subHeader="Software Engineer"/>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

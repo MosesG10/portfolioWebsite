@@ -4,10 +4,18 @@
     height: 130px;
 }
 
+.cardArt {
+    height: 100px;
+}
+
 .title {
     padding-top: 0.5rem;
     padding-bottom: 1rem;
     font-size: 1.1rem;
+}
+
+.pageWrapper {
+    height: 100%;
 }
 
 .linkButton {
