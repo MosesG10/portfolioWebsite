@@ -36,16 +36,19 @@
     color: black;
   }
 
-  .pad {
-    padding: 5px;
-  }
-
   .card {
     background-color: rgba(200, 200, 255, 0.2);
     border: none;
     backdrop-filter: blur(6px);
-    display: flex;
-    justify-content: center;
     width: 100%;
     padding: 1.5em 1em;
+  }
+
+  .pad {
+    padding: 5px;
+  }
+
+  .customContainer {
+      display: flex;
+      justify-content: center;
   }
