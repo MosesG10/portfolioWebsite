@@ -40,10 +40,24 @@ const App = ()=> {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-6">
-            <Card image={schoolImage} subHeader="Industrial Engineering"/>
+            <Card 
+              image={schoolImage} 
+              subHeader="B.S Industrial Engineering"
+              details="August 2015 - May 2019"
+              showButton={true}
+              buttonTitle="More info"
+              modalDetails={"blah blah blah"}
+              />
           </div>
           <div className="col-md-6">
-            <Card image={amexImage} subHeader="Software Engineer"/>
+            <Card
+              image={amexImage} 
+              subHeader="Software Engineer"
+              details="August 2019 - Present"
+              showButton={true}
+              buttonTitle="More info"
+              modalDetails={"Blah blah blah"}
+            />
           </div>
         </div>
       </div>

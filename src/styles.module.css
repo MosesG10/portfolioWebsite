@@ -52,3 +52,9 @@
       display: flex;
       justify-content: center;
   }
+
+  .button {
+    color: #212529;
+    border-color: #212529;
+    margin-bottom: 0.3em;
+  }
