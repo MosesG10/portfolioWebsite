@@ -17,7 +17,7 @@ const Card = ({ image, subHeader, details, buttonTitle, modalDetails }) => {
       </div>
       {details && (
         <div className={styles.customContainer}>
-          <p>{details}</p>
+          <p className={styles.cardText}>{details}</p>
         </div>
       )}
       {buttonTitle && (
@@ -29,8 +29,10 @@ const Card = ({ image, subHeader, details, buttonTitle, modalDetails }) => {
           </div>
 
           <Modal show={showModal} onHide={() => setShowModal(!showModal)}>
-            <div>{modalDetails}</div>
-            <div className={styles.customContainer}>
+            <div className={`${styles.customContainer} ${styles.cardText} ${styles.pad2}`}>
+                {modalDetails}
+            </div>
+            <div className={`${styles.customContainer} ${styles.cardText} ${styles['pad-2-bottom']}`}>
               <button
                 className="btn btn-outline-dark"
                 onClick={() => setShowModal(!showModal)}

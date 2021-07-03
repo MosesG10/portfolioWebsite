@@ -43,10 +43,24 @@
     width: 100%;
     padding: 1.5em 1em;
   }
+  
+  .cardText {
+    word-wrap: break-word;
+    font-family: 'Jost', sans-serif;
+  }
 
   .pad {
     padding: 5px;
   }
+
+  .pad2 {
+      padding: 20px;
+  }
+
+  .pad-2-bottom {
+    padding-bottom: 20px;
+  }
+
 
   .customContainer {
       display: flex;
