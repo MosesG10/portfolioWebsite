@@ -44,9 +44,8 @@ const App = ()=> {
               image={schoolImage} 
               subHeader="B.S Industrial Engineering"
               details="August 2015 - May 2019"
-              showButton={true}
               buttonTitle="More info"
-              modalDetails={"blah blah blah"}
+              modalDetails={'A&M Body'}
               />
           </div>
           <div className="col-md-6">
@@ -54,9 +53,8 @@ const App = ()=> {
               image={amexImage} 
               subHeader="Software Engineer"
               details="August 2019 - Present"
-              showButton={true}
               buttonTitle="More info"
-              modalDetails={"Blah blah blah"}
+              modalDetails={'Amex Body'}
             />
           </div>
         </div>

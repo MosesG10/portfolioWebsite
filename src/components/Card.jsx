@@ -1,44 +1,64 @@
-import React from 'react';
-import styles from '../styles.module.css';
-import PropTypes from 'prop-types';
+/* eslint-disable react/prop-types */
+import React, { useState } from "react";
+import styles from "../styles.module.css";
+import PropTypes from "prop-types";
+import { Modal } from "react-bootstrap";
 
-// eslint-disable-next-line react/prop-types
-const Card = ({image, subHeader, details, showButton, buttonTitle}) => {
-    return (
+const Card = ({ image, subHeader, details, buttonTitle, modalDetails }) => {
+  const [showModal, setShowModal] = useState(false);
+
+  return (
     <div className={styles.card}>
+      <div className={styles.customContainer}>
+        <img className={styles.cardArt} src={image} alt={"title"}></img>
+      </div>
+      <div className={styles.customContainer}>
+        <h4>{subHeader}</h4>
+      </div>
+      {details && (
         <div className={styles.customContainer}>
-            <img className={styles.cardArt} src={image} alt={"title"}></img>
+          <p>{details}</p>
         </div>
-        <div className={styles.customContainer}>
-            <h4>{subHeader}</h4>
-        </div>
-        { details && (
+      )}
+      {buttonTitle && (
+        <>
+          <div className={styles.customContainer}>
+            <button className="btn btn-outline-dark" onClick={setShowModal}>
+              {buttonTitle}
+            </button>
+          </div>
+
+          <Modal show={showModal} onHide={() => setShowModal(!showModal)}>
+            <div>{modalDetails}</div>
             <div className={styles.customContainer}>
-                <p>{details}</p>
+              <button
+                className="btn btn-outline-dark"
+                onClick={() => setShowModal(!showModal)}
+              >
+                Close
+              </button>
             </div>
-        )}
-        { showButton && (
-            <div className={styles.customContainer}>
-                <button className="btn btn-outline-dark">{buttonTitle}</button>
-            </div>
-        )
-        }
+          </Modal>
+        </>
+      )}
     </div>
-    );
+  );
 };
 
 Card.PropTypes = {
-    image: PropTypes.node.isRequired,
-    subHeader: PropTypes.string,
-    showButton: PropTypes.bool,
-    buttonTitle: PropTypes.string,
+  image: PropTypes.node.isRequired,
+  subHeader: PropTypes.string,
+  showButton: PropTypes.bool,
+  buttonTitle: PropTypes.string,
+  modalDetails: PropTypes.string,
 };
 
 Card.defaultProps = {
-    subHeader: '',
-    details: '',
-    showButton: false,
-    buttonTitle: 'More Info'
+  subHeader: "",
+  details: "",
+  showButton: false,
+  buttonTitle: "",
+  modalDetails: "",
 };
 
 export default Card;
