@@ -6,17 +6,17 @@ const SubHeader = () => {
         console.log('toggleModal Called');
     }
     return (
-        <div className="container">
-           <div className="row justify-content-center">
-            <span>
+        <div className={styles['margin-1-bottom']}>
+           <div className="row justify-content-center" id="stacked-horizontal">
+            <span className={styles['margin-right']}>
                 <button className={`${styles.linkButton} ${styles.anchorColor}`} onClick={toggleEmailModal}>Email</button>
             </span>
             •
-            <span>
+            <span className={`${styles['margin-right']} ${styles['margin-left']}`}>
                 <a className={styles.anchorColor} href="https://github.com/MosesG10">Github</a>
             </span>
             •
-            <span>
+            <span className={styles['margin-left']}>
                 <a className={styles.anchorColor} href="https://www.linkedin.com/in/moses-godinez/">LinkedIn</a>
             </span>
            </div>

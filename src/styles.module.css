@@ -1,5 +1,6 @@
 
 .profilePicture {
+    padding-top: 15px;
     border-radius: 50%;
     height: 130px;
 }
@@ -9,9 +10,8 @@
 }
 
 .title {
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-    font-size: 1.1rem;
+    font-size: 3.0rem;
+    padding-bottom: 0;
 }
 
 .pageWrapper {
@@ -44,8 +44,7 @@
     padding: 1.5em 1em;
   }
   
-  .cardText {
-    word-wrap: break-word;
+  .cardFont, span, button, a, h1, h2, h3, h4 {
     font-family: 'Jost', sans-serif;
   }
 
@@ -61,6 +60,17 @@
     padding-bottom: 20px;
   }
 
+  .margin-1-bottom {
+      margin-bottom: 10px;
+  }
+
+  .margin-right {
+      margin-right: 5px;
+  }
+
+  .margin-left {
+    margin-left: 5px;
+}
 
   .customContainer {
       display: flex;
