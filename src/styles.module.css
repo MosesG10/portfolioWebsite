@@ -1,8 +1,8 @@
 
 .profilePicture {
-    padding-top: 15px;
-    border-radius: 50%;
+    margin-top: 10px;
     height: 130px;
+    border-radius: 50%;
 }
 
 .cardArt {
@@ -16,6 +16,8 @@
 
 .pageWrapper {
     height: 100%;
+    width: 100%;
+    padding-bottom: 30px;
 }
 
 .linkButton {
@@ -28,24 +30,27 @@
   }
 
   .anchorColor {
-    color: black;
+    color: white;
   }
 
   .anchorColor:hover {
     text-decoration: underline;
-    color: black;
+    color: white;
   }
 
   .card {
-    background-color: rgba(200, 200, 255, 0.2);
+    background-color: rgba(189, 189, 200, 0.2);
     border: none;
     backdrop-filter: blur(6px);
     width: 100%;
     padding: 1.5em 1em;
+    border-radius: 5px;
   }
   
   .cardFont, span, button, a, h1, h2, h3, h4 {
     font-family: 'Jost', sans-serif;
+    margin-bottom: 5px;
+    color: white;
   }
 
   .pad {
@@ -75,6 +80,7 @@
   .customContainer {
       display: flex;
       justify-content: center;
+      margin-bottom: 0 !important;
   }
 
   .button {

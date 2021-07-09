@@ -21,13 +21,14 @@ const App = () => {
           mouseControls: false,
           touchControls: false,
           gyroControls: false,
-          minHeight: 200.0,
-          minWidth: 200.0,
-          scale: 1.0,
-          scaleMobile: 1.0,
-          color: 0x334c8c,
-          shininess: 27.0,
-          waveHeight: 12.5,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0x181818,
+          shininess: 19.00,
+          waveHeight: 25.00,
+          waveSpeed: 0.80
         })
       );
     }
