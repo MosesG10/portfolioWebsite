@@ -13,7 +13,7 @@ const Card = ({ image, subHeader, details, buttonTitle, modalDetails }) => {
         <img className={styles.cardArt} src={image} alt={"title"}></img>
       </div>
       <div className={styles.customContainer}>
-        <h4>{subHeader}</h4>
+        <h4 style={{marginBottom: 0}}>{subHeader}</h4>
       </div>
       {details && (
         <div className={styles.customContainer}>

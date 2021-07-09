@@ -7,7 +7,7 @@ const SubHeader = () => {
     }
     return (
         <div className={styles['margin-1-bottom']}>
-           <div className="row justify-content-center" id="stacked-horizontal">
+           <div className="row justify-content-center">
             <span className={styles['margin-right']}>
                 <button className={`${styles.linkButton} ${styles.anchorColor}`} onClick={toggleEmailModal}>Email</button>
             </span>
