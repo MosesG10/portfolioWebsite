@@ -47,7 +47,13 @@
     border-radius: 5px;
   }
   
-  .cardFont, span, button, a, h1, h2, h3, h4 {
+  .cardFont, button, a, h2, h3, h4 {
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+  modalFont {
     font-family: 'Jost', sans-serif;
     margin-bottom: 5px;
     color: black;
