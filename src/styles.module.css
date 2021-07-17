@@ -50,7 +50,7 @@
   .cardFont, span, button, a, h1, h2, h3, h4 {
     font-family: 'Jost', sans-serif;
     margin-bottom: 5px;
-    color: white;
+    color: black;
   }
 
   .pad {

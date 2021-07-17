@@ -34,7 +34,7 @@ const Card = ({ image, subHeader, details, buttonTitle, modalDetails }) => {
             </div>
             <div className={`${styles.customContainer} ${styles.cardFont} ${styles['pad-2-bottom']}`}>
               <button
-                className="btn btn-outline-light"
+                className="btn btn-outline-dark"
                 onClick={() => setShowModal(!showModal)}
               >
                 Close
