@@ -43,7 +43,7 @@ const App = () => {
       <SubHeader />
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-5">
+          <div className={`col-md-5 col-sm-4 ${styles['margin-1-top']}`}>
             <Card
               image={schoolImage}
               subHeader="B.S Industrial Engineering"
@@ -52,7 +52,7 @@ const App = () => {
               modalDetails={modalConfig.schoolDetails}
             />
           </div>
-          <div className="col-md-5">
+          <div className={`col-md-5 col-sm-4 ${styles['margin-1-top']}`}>
             <Card
               image={amexImage}
               subHeader="Software Engineer"
