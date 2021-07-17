@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../styles.module.css';
+import { Modal } from "react-bootstrap";
 
 const SubHeader = () => {
-    const toggleEmailModal = () => {
-        console.log('toggleModal Called');
-    }
+    const [showModal, setShowModal] = useState(false);
+
     return (
         <div>
            <div className="row justify-content-center">
             <span className={styles['margin-right']}>
-                <button className={`${styles.linkButton} ${styles.anchorColor}`} onClick={toggleEmailModal}>Email</button>
+                <button className={`${styles.linkButton} ${styles.anchorColor}`} onClick={()=> setShowModal(!showModal)}>Email</button>
             </span>
             •
             <span className={`${styles['margin-right']} ${styles['margin-left']}`}>
@@ -20,6 +20,19 @@ const SubHeader = () => {
                 <a className={styles.anchorColor} href="https://www.linkedin.com/in/moses-godinez/">LinkedIn</a>
             </span>
            </div>
+           <Modal show={showModal} onHide={() => setShowModal(!showModal)}>
+            <div className={`${styles.customContainer} ${styles.modalFont} ${styles.pad2}`}>
+                <a className={styles['margin-1-top']} href="mailto:mosesgodinez@outlook.com">mosesgodinez@outlook.com</a>
+            </div>
+            <div className={`${styles.customContainer} ${styles.modalFont} ${styles['pad-2-bottom']}`}>
+              <button
+                className="btn btn-outline-dark"
+                onClick={() => setShowModal(!showModal)}
+              >
+                Close
+              </button>
+            </div>
+          </Modal>
         </div>
     )
 }

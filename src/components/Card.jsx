@@ -16,7 +16,7 @@ const Card = ({ image, subHeader, details, buttonTitle, modalDetails }) => {
         <h4 style={{marginBottom: 0}}>{subHeader}</h4>
       </div>
       {details && (
-        <div className={styles.customContainer}>
+        <div className={`${styles.customContainer} ${styles['margin-1-bottom']}`}>
           <p className={styles.cardFont}>{details}</p>
         </div>
       )}

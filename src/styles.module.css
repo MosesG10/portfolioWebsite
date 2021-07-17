@@ -53,10 +53,11 @@
   .cardFont, button, a, h2, h3, h4 {
     font-family: 'Jost', sans-serif;
     margin-bottom: 5px;
+    margin-top: 5px;
     color: white;
   }
 
-  modalFont {
+  .modalFont {
     font-family: 'Jost', sans-serif;
     margin-bottom: 5px;
     color: black;
@@ -79,7 +80,7 @@
   }
 
   .margin-1-top {
-    margin-top: 12px;
+    margin-top: 10px;
   }
 
   .margin-right {
