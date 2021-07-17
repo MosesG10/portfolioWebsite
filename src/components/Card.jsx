@@ -29,9 +29,10 @@ const Card = ({ image, subHeader, details, buttonTitle, modalDetails }) => {
           </div>
 
           <Modal show={showModal} onHide={() => setShowModal(!showModal)}>
-            <div className={`${styles.customContainer} ${styles.modalFont} ${styles.pad2}`}>
-                {modalDetails}
-            </div>
+            <div 
+              className={`${styles.customContainer} ${styles.modalFont} ${styles.pad2}`}
+              dangerouslySetInnerHTML={{__html: `${modalDetails}`}} 
+            />
             <div className={`${styles.customContainer} ${styles.modalFont} ${styles['pad-2-bottom']}`}>
               <button
                 className="btn btn-outline-dark"
