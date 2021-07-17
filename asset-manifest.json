@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolioWebsite/static/css/main.1a8d2843.chunk.css",
+    "main.js": "/portfolioWebsite/static/js/main.792d6b12.chunk.js",
+    "main.js.map": "/portfolioWebsite/static/js/main.792d6b12.chunk.js.map",
+    "runtime-main.js": "/portfolioWebsite/static/js/runtime-main.9dfa00c2.js",
+    "runtime-main.js.map": "/portfolioWebsite/static/js/runtime-main.9dfa00c2.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/portfolioWebsite/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.dca44eb3.chunk.js": "/portfolioWebsite/static/js/2.dca44eb3.chunk.js",
+    "static/js/2.dca44eb3.chunk.js.map": "/portfolioWebsite/static/js/2.dca44eb3.chunk.js.map",
+    "static/js/3.1c8dc6a8.chunk.js": "/portfolioWebsite/static/js/3.1c8dc6a8.chunk.js",
+    "static/js/3.1c8dc6a8.chunk.js.map": "/portfolioWebsite/static/js/3.1c8dc6a8.chunk.js.map",
+    "index.html": "/portfolioWebsite/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/portfolioWebsite/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.1a8d2843.chunk.css.map": "/portfolioWebsite/static/css/main.1a8d2843.chunk.css.map",
+    "static/js/2.dca44eb3.chunk.js.LICENSE.txt": "/portfolioWebsite/static/js/2.dca44eb3.chunk.js.LICENSE.txt",
+    "static/media/American_Express-Logo.wine.8a481328.svg": "/portfolioWebsite/static/media/American_Express-Logo.wine.8a481328.svg",
+    "static/media/TAM-Logo.c671d9d8.svg": "/portfolioWebsite/static/media/TAM-Logo.c671d9d8.svg",
+    "static/media/moses.a53ce10c.jpg": "/portfolioWebsite/static/media/moses.a53ce10c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9dfa00c2.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.dca44eb3.chunk.js",
+    "static/css/main.1a8d2843.chunk.css",
+    "static/js/main.792d6b12.chunk.js"
+  ]
+}
