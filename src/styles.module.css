@@ -1,8 +1,18 @@
+.pageWrapper{
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
 
 .profilePicture {
     margin-top: 10px;
     height: 130px;
     border-radius: 50%;
+    margin: auto;    
+    display: block;
+}
+
+.subHeaderStyle {
+  text-align: center;
 }
 
 .cardArt {
@@ -12,12 +22,6 @@
 .title {
     font-size: 3.0rem;
     padding-bottom: 0;
-}
-
-.pageWrapper {
-    min-height: 100vh;
-    min-width: 100vh;
-    padding-bottom: 30px;
 }
 
 .linkButton {
@@ -50,11 +54,19 @@
     border-radius: 5px;
   }
   
-  .cardFont, button, a, h2, h3, h4 {
+  .cardFont, button, h2, h3, h4 {
     font-family: 'Jost', sans-serif;
     margin-bottom: 5px;
     margin-top: 5px;
     color: white;
+  }
+
+  .nameHeaderStyle {
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: white;  
+    text-align: center;
   }
 
   .modalFont {
