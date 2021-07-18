@@ -6,8 +6,7 @@ const SubHeader = () => {
     const [showModal, setShowModal] = useState(false);
 
     return (
-        <div>
-           <div className="row justify-content-center">
+        <div className={styles.subHeaderStyle}>
             <span className={styles['margin-right']}>
                 <button className={`${styles.linkButton} ${styles.anchorColor}`} onClick={()=> setShowModal(!showModal)}>Email</button>
             </span>
@@ -19,7 +18,6 @@ const SubHeader = () => {
             <span className={styles['margin-left']}>
                 <a className={styles.anchorColor} href="https://www.linkedin.com/in/moses-godinez/">LinkedIn</a>
             </span>
-           </div>
            <Modal show={showModal} onHide={() => setShowModal(!showModal)}>
             <div className={`${styles.customContainer} ${styles.modalFont} ${styles.pad2}`}>
                 <a className={styles['margin-1-top']} href="mailto:mosesgodinez@outlook.com">mosesgodinez@outlook.com</a>
