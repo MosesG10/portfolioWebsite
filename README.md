@@ -1,6 +1,6 @@
-# [mosesgodinez.com](mosesgodinez.com)
+# [www.mosesgodinez.com](https://www.mosesgodinez.com)
 
-**Visit the site! [mosesgodinez.com](mosesgodinez.com)**
+**Visit the site! [www.mosesgodinez.com](https://www.mosesgodinez.com)**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and is hosted on [Github Pages](https://pages.github.com/)
 
